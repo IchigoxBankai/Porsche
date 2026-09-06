@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-display {
+    font-family: 'Orbitron', 'Syncopate', sans-serif;
+  }
+  .font-syncopate {
+    font-family: 'Syncopate', sans-serif;
+  }
+  .glass-card {
+    background: rgba(18, 22, 32, 0.65);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .glass-card-hover {
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .glass-card-hover:hover {
+    background: rgba(26, 32, 46, 0.85);
+    border-color: rgba(0, 242, 254, 0.35);
+    box-shadow: 0 15px 35px -10px rgba(0, 242, 254, 0.2);
+    transform: translateY(-4px);
+  }
+  .text-glow {
+    text-shadow: 0 0 20px rgba(0, 242, 254, 0.6);
+  }
+  .text-glow-red {
+    text-shadow: 0 0 20px rgba(225, 6, 0, 0.7);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #07090d;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e2538;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e10600;
+}
+
+/* Ambient Cyber Grid */
+.cyber-grid {
+  background-size: 50px 50px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+
+/* Smooth keyframe animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.08); }
+}
+
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(1000%); }
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(200%); }
+}
+
+@keyframes engineVibrate {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  20% { transform: translate(-1px, 1px) rotate(-0.5deg); }
+  40% { transform: translate(1px, -1px) rotate(0.5deg); }
+  60% { transform: translate(-1px, -1px) rotate(-0.3deg); }
+  80% { transform: translate(1px, 1px) rotate(0.3deg); }
+}
+
+@keyframes lightBeam {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.7; }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+.animate-scanline {
+  animation: scanline 4s linear infinite;
+}
+
+.animate-shimmer {
+  animation: shimmer 2.5s infinite;
+}
+
+.animate-engine {
+  animation: engineVibrate 0.1s infinite;
+}
+
