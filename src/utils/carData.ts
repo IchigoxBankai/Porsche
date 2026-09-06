@@ -39,7 +39,7 @@ export const CAR_MODELS: CarModel[] = [
     weight: 1520,
     downforce: 860,
     price: '$2,400,000',
-    image: '/images/hero_car_front.png',
+    image: './images/hero_car_front.png',
     accentColor: '#00F2FE',
     description: 'A beacon of technological innovation. Mission X delivers a 1:1 power-to-weight ratio with 1,520 PS, downforce exceeding the 911 GT3 RS, and record-breaking 900V charging efficiency.',
     features: ['1:1 Power to Weight Ratio', 'Active Aero Wings', 'Carbon Fiber Monocoque', 'e-Motor Mid-Battery Concept']
@@ -57,7 +57,7 @@ export const CAR_MODELS: CarModel[] = [
     weight: 2290,
     downforce: 220,
     price: '$230,000',
-    image: '/images/car_side_profile.png',
+    image: './images/car_side_profile.png',
     accentColor: '#E10600',
     description: 'The fastest series-production electric car at the Nürburgring. Equipped with Weissach package, Attack Mode pushing 1,092 HP, and Porsche Active Ride suspension.',
     features: ['Attack Mode (10s 120kW boost)', 'Weissach Lightweight Aero', 'Porsche Active Ride', 'Carbon Ceramic Brakes (PCCB)']
@@ -73,7 +73,7 @@ export const CAR_MODELS: CarModel[] = [
     weight: 1450,
     downforce: 860,
     price: '$241,300',
-    image: '/images/car_side_profile.png',
+    image: './images/car_side_profile.png',
     accentColor: '#38EF7D',
     description: 'Designed purely for track dominance. Featuring active DRS (Drag Reduction System), atmospheric 4.0L naturally aspirated engine, and extreme lightweight carbon construction.',
     features: ['DRS Rear Wing System', '4.0L High-Rev N/A Flat-6', 'Adjustable Suspension Damping', 'Magnesium Wheel Package']
@@ -90,7 +90,7 @@ export const CAR_MODELS: CarModel[] = [
     weight: 1634,
     downforce: 450,
     price: '$1,850,000',
-    image: '/images/hero_car_front.png',
+    image: './images/hero_car_front.png',
     accentColor: '#D4AF37',
     description: 'The halo hypercar that pioneered high-voltage hybrid powertrain engineering. Top-pipe exhaust system with 4.6L V8 and dual electric motors.',
     features: ['Top-Pipe Exhaust Architecture', 'Dual Axle Electric Drive', 'Carbon Monocoque Chassis', 'Acid Green Brake Calipers']

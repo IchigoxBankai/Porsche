@@ -80,7 +80,7 @@ export const CarCustomizer: React.FC = () => {
                   initial={{ opacity: 0.8, scale: 0.98 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.4 }}
-                  src="/images/car_side_profile.png"
+                  src="./images/car_side_profile.png"
                   alt="Porsche Studio Customizer Car"
                   className="w-full h-auto object-contain drop-shadow-[0_20px_35px_rgba(0,0,0,0.95)]"
                   style={{

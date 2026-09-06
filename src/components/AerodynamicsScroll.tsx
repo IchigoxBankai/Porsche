@@ -73,7 +73,7 @@ export const AerodynamicsScroll: React.FC = () => {
             {/* Car Blueprint Image with Hotspot Pins */}
             <div className="relative w-full my-6 flex items-center justify-center">
               <img
-                src="/images/aero_blueprint.png"
+                src="./images/aero_blueprint.png"
                 alt="Porsche Aerodynamics Blueprint"
                 className="w-full h-auto object-contain rounded-xl drop-shadow-[0_0_30px_rgba(0,242,254,0.35)]"
               />

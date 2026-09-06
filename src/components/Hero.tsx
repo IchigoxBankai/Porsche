@@ -168,7 +168,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenTestDrive }) => {
 
           {/* Car Image */}
           <img
-            src="/images/hero_car_front.png"
+            src="./images/hero_car_front.png"
             alt="Porsche Mission X Hypercar"
             className="w-full h-auto object-contain drop-shadow-[0_30px_45px_rgba(0,0,0,0.95)] transition-transform duration-700 group-hover:scale-[1.03]"
           />
